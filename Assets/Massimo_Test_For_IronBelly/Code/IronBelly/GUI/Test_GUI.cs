@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Test_GUI : MonoBehaviour
 {
     [SerializeField] private TestManager testManager;
-
+    [SerializeField] private TMP_Text numberText;
     [Header("Add GUI")]
     [SerializeField] private TMP_InputField addAmountInput;
     [SerializeField] private Button addAmountButton;
@@ -38,6 +38,7 @@ public class Test_GUI : MonoBehaviour
     private void CheckToDisableRemoveCanvas()
     {
         removeCanvasGroup.interactable = testManager.ActiveObjectsAmount != 0;
+        numberText.SetText(testManager.ActiveObjectsAmount.ToString());
     }
 
     private void SpawnOneObject()
