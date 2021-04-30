@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b454a6d835203d949934af30d03cd9fb, type: 3}
+  m_Name: IronBellyTestSetting
+  m_EditorClassIdentifier: 
+  maxSearchDistance: 99
+  areaOfMove:
+    speed: 15
+    minX: -10
+    minY: -10
+    minZ: -10
+    maxX: 10
+    maxY: 10
+    maxZ: 10
+  useLineRender: 1
+  startPoolSize: 5
+  prefabNeighbor: {fileID: 7992611188013075420, guid: e0bbec6e4be4cd14fa356621671c4d66, type: 3}

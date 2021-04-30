@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.Massimo_Test_For_IronBelly.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Work\Aletorio\Massimo_Test_For_IronBelly\Massimo_Test_For_IronBelly\.idea\.idea.Massimo_Test_For_IronBelly\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
